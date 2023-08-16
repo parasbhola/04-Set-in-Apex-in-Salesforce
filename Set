@@ -5,7 +5,24 @@ public class setDemo{
        
         strset.add('India');
         
-        System.debug('My country is ' +	 strset);         
+        System.debug('My country is ' +	 strset);                       
+    }  
+}
+
+ //addAll(fromlist)  
+public class setDemo{
+    public void setMethod(){
+    
+        list<string> strlist = new list<string>	{'A','A'};
+        Set<String> strset = new Set<String>();
+       
+        
+        
+        strset.add('India');
+        strset.addall(strlist);
+        
+        System.debug('strlist =' + strlist);
+        System.debug('strset  ' +	 strset);         
             
         
   
