@@ -22,7 +22,26 @@ public class setDemo{
         strset.addall(strlist);
         
         System.debug('strlist =' + strlist);
-        System.debug('strset  ' +	 strset);         
+        System.debug('strset  ' +	 strset);   
+
+//clear  
+public class setDemo{
+    public void setMethod(){
+    
+        list<string> strlist = new list<string>	{'A','A'};
+        Set<String> strset = new Set<String>();
+       
+        
+        
+        strset.add('India');
+        strset.addall(strlist);
+        
+        System.debug('strlist =' + strset);
+        strset.clear();
+        System.debug('strset = ' +	 strset);         
+        
+    }
+}
             
         
   
