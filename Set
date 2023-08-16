@@ -43,8 +43,22 @@ public class setDemo{
     }
 }
             
+//clone
+public class setDemo{
+    public void setMethod(){
+    
+        list<string> strlist = new list<string>	{'A','A'};
+        Set<String> strset = new Set<String>();
+        Set<String> strset2 = new Set<String>();
+       
         
-  
-              
-    }  
+        
+        strset.add('India');
+        strset.addall(strlist);
+        
+        System.debug('strlist =' + strset);
+        strset2	=strset.clone();
+        System.debug('strset = ' +	 strset);         
+        
+    }
 }
