@@ -82,3 +82,25 @@ public class setDemo{
         
     }
 }
+
+//contain(setElement)
+public class setDemo{
+    public void setMethod(){
+    
+        list<string> strlist = new list<string>	{'A','A'};
+        Set<String> strset = new Set<String>();
+        Set<String> strset2 = new Set<String>();
+        Boolean B;
+         
+        
+         
+        strset.add('India');
+        strset.addAll(strlist);
+        b = strset.contains('B');
+        
+        
+        System.debug('b =' +  b);
+        System.debug(strset.contains ('A'));
+        
+    }
+}
