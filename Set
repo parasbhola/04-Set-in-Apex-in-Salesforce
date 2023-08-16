@@ -1,0 +1,14 @@
+public class setDemo{
+    public void setMethod(){
+        
+        Set<String> strset = new Set<String>();
+       
+        strset.add('India');
+        
+        System.debug('My country is ' +	 strset);         
+            
+        
+  
+              
+    }  
+}
