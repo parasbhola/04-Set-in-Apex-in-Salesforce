@@ -104,3 +104,22 @@ public class setDemo{
         
     }
 }
+
+//Contains All(List to compare ) and containsAll (Set to compare)
+//compare set with list and set with set
+public class SetDemo {
+    public void setMethod (){
+        List<String> strlist = new List<String>{'A','B'};
+            Set<String> strset = new Set <string>();
+        Set<String> strset2 = new Set<string>();
+         
+        Boolean b; 
+            
+           strset.add('A');
+        strset.add('B');
+        
+        b= strset.containsAll(strlist);
+        system.debug('b='+ b);
+           }
+}
+
