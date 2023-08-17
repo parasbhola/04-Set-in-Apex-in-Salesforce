@@ -123,3 +123,21 @@ public class SetDemo {
            }
 }
 
+
+//equals 
+public class SetDemo {
+    public void setMethod (){
+        List<String> strlist = new List<String>{'A','B'};
+            Set<String> strset = new Set <string>();
+        Set<String> strset2 = new Set<string>();
+         
+        Boolean b; 
+            
+           strset.add('A');
+        strset.add('B');
+        strset2.add('A');
+        
+        b= strset.equals	('strset2');
+        system.debug('b='+ b);           
+    }
+}
