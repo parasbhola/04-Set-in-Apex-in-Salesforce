@@ -201,3 +201,25 @@ public class SetDemo {
         system.debug('strset' + strset);
     }
 }
+
+
+//retain All(List of Element to remove)
+public class SetDemo {
+    public void setMethod (){
+        List<String> strlist = new List<String>{'A','B'};
+            Set<String> strset = new Set <string>();
+        Set<String> strset2 = new Set<string>();
+         
+        Boolean b; 
+            
+           strset.add('A');
+        strset.add('B');   
+        strset.add('C');
+       strset.add('D');
+       
+         
+        system.debug('strset' + strset 	);
+        strset.retainAll(strlist);
+        system.debug('strset' + strset);
+    }
+}
