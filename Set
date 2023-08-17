@@ -141,3 +141,24 @@ public class SetDemo {
         system.debug('b='+ b);           
     }
 }
+
+//if else statement
+public class SetDemo {
+    public void setMethod (){
+        List<String> strlist = new List<String>{'A','B'};
+            Set<String> strset = new Set <string>();
+        Set<String> strset2 = new Set<string>();
+         
+        Boolean b; 
+            
+           strset.add('A');
+        strset.add('B');
+        strset2.add('A');
+        
+        if(strset.isempty()){
+            system.debug('Empty');
+        }else{
+            system.debug('Not empty');
+        }
+        }        
+  
