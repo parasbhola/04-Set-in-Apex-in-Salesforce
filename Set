@@ -161,4 +161,22 @@ public class SetDemo {
             system.debug('Not empty');
         }
         }        
-  
+
+
+//remove set element
+public class SetDemo {
+    public void setMethod (){
+        List<String> strlist = new List<String>{'A','B'};
+            Set<String> strset = new Set <string>();
+        Set<String> strset2 = new Set<string>();
+         
+        Boolean b; 
+            
+           strset.add('A');
+        strset.add('B');   
+         
+        system.debug('strset' + strset 	);
+        strset.remove('A');
+        system.debug('strset' + strset);
+    }
+}
